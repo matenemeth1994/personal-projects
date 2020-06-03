@@ -6,3 +6,5 @@
 - `npm install -g nodemon`
 - `npm install bootstrap`
 - `npm install react-router-dom`
+- \exercise-tracker `npm install react-datepicker`
+- \exercise-tracker `npm install axios`
