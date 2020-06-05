@@ -1,11 +1,11 @@
-export const calculator = {
+const calculator = {
   displayValue: "0",
   firstOperand: null,
   waitingForSecondOperand: false,
   operator: null,
 };
 
-export function updateDisplay() {
+function updateDisplay() {
   const display = document.querySelector(".calculator-screen");
   display.value = calculator.displayValue;
 }
@@ -106,4 +106,3 @@ function resetCalculator() {
   calculator.operator = null;
   console.log(calculator);
 }
-
