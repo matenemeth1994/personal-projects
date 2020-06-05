@@ -1,4 +1,20 @@
-### Commands
+### About 
+
+Exercise tracker application executing CRUD operations with MongoDB. 
+
+### Built With
+
+- Node - Express
+- MongoBD
+- React JS
+- Bootstrap
+
+### How to run 
+
+- \exercise-tracker: `npm start` - open react application in the browser.
+- \backend: `npm start` - start nodemon that runs node in the backend and connects the server with MongoDB database. For some reason `nodemon server` command didn't work so in `mern-exercise-tracker\backend\package.json` I added it to the scripts and running nodemon with npm. 
+
+### Commands I used to install packages 
 
 - create react app: `npx create-react-app mern-exercise-tracker`
 - \backend `npm init -y`
