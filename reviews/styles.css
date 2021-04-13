@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#box {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  text-align: center;
+}
+
+#img {
+  padding: 10px;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
