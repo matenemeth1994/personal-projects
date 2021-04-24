@@ -1,24 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 // import styles from "./Game.module.scss";
-import Board from "../Board/Board"
+import { calculateWinner } from "../../helpers";
+import Board from "../Board/Board";
 
 const Game = () => {
+  const [board, setBoard] = useState(Array(9).fill(null));
+  const [xIsNext, setXisNext] = useState(true);
+  const winner = calculateWinner(board);
 
-  const handleClick = () => {
-    
-  }
+  const handleClick = () => {};
 
-  const jumpTo = () => {
-    
-  }
+  const jumpTo = () => {};
 
-  const renderMoves = () => {
-    
-  }
+  const renderMoves = () => {};
 
   return (
     <>
-      <Board onClick={handleClick}/>
+      <Board squares={board} onClick={handleClick} />
     </>
   );
 };
